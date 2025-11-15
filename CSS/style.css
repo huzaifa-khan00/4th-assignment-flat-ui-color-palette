@@ -61,7 +61,7 @@ html, body {
     flex-wrap: wrap;
 }
 
-.color-box {
+.color-box, .color-box1, .color-box5, .color-box16, .color-box20 {
     /* background-color: pink; */
     width: 20%;
     height: 25%;
@@ -93,28 +93,4 @@ html, body {
     align-items: center;
     width: 95%;
     height: 10%;
-}
-
-.au {
-    /* background-color: greenyellow; */
-}
-
-.gb {
-    background-color: orange;
-}
-
-.ca  {
-    background-color: cyan;
-}
-
-.nc {
-    background-color: greenyellow;
-}
-
-.nl {
-    background-color: orange;
-}
-
-.fr  {
-    background-color: cyan;
 }
