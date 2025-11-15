@@ -3,13 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/pages.css" />
     <title>Aussie AU</title>
   </head>
   <body>
     <nav>
-      <div class="go-back"></div>
-      <div class="copy-format"></div>
-      <div class="sound-on"></div>
+      <div class="go-back">Go Back</div>
+
+      <div class="select"><select name="hex-code" id="hex" checked>
+        Copy Format: HEX (#AA1923)
+        <option value="#AA1923">HEX (#AA1923)</option>
+        <option value="AA1923">HEX (AA1923)</option>
+        <option value="1,2,3">RGB - (1,2,3)</option>
+        <option value="1,2,3,0.4">RGBA - (1,2,3,0.4)</option>
+        <option value="more colors">☝️ Want more colors?</option>
+        <option value="Feedback">👋 Feedback</option>
+      </select>
+      </div>
+      <div class="sound-on">←Back Sound On 🔊</div>
     </nav>
     <div class="colors-container">
       <div class="color-div1 color-div"></div>
