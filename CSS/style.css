@@ -93,4 +93,9 @@ html, body {
     align-items: center;
     width: 95%;
     height: 10%;
+    list-style-type: none;
+}
+
+.country-code span {
+    list-style-type: none;
 }
