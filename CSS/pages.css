@@ -85,7 +85,7 @@ nav select:focus{
     background: transparent;
 }
 
-.color-div:hover, .color-box:hover > .copy{
+.color-div:hover > .copy{
     display: block;
     transition: all 1s ease-in-out;
 }
