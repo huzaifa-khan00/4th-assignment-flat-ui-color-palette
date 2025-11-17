@@ -38,6 +38,11 @@ nav select {
     letter-spacing: 1px;
 }
 
+nav option {
+    width: 20vw;
+    height: 2.4vw;
+}
+
 .colors-container {
     width: 100%;
     height: 94%;
