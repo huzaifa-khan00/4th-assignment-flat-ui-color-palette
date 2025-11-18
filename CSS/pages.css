@@ -118,6 +118,12 @@ nav select:focus {
 
 }
 
+@media (min-width: 1440px) and (min-width: 1440px) {
+  nav select{
+    height: 40px;
+  }
+}
+
 @media (max-width: 768px) {
   .colors-container div {
     font-size: 0vw !important;
