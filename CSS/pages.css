@@ -21,7 +21,6 @@ nav {
   justify-content: space-between;
   padding: 0 2%;
   position: relative;
-  /* font-size: 20em; */
 }
 
 .go-back {
@@ -43,6 +42,7 @@ nav select {
   letter-spacing: 0.8px;
   font-weight: bolder;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: background-color 1s ease;
 }
 
 nav select:focus {

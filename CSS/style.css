@@ -55,10 +55,31 @@ body {
   background-color: white;
   border-radius: 5px;
   text-decoration: none;
+  transition: transform 0.5s ease;
+}
+
+.plt-box:hover {
+  transform: scale(1.2);
 }
 
 .plt-box span {
   color: black;
+}
+
+.color-box,
+.color-box1,
+.color-box5,
+.color-box16,
+.color-box20 {
+  transition: transform 0.5s ease;
+}
+
+.color-box:hover,
+.color-box1:hover,
+.color-box5:hover,
+.color-box16:hover,
+.color-box20:hover {
+  transform: scale(1.5);
 }
 
 .color-box-container {
@@ -164,7 +185,7 @@ body {
 }
 
 @media (max-width: 375px) {
-.container {
+  .container {
     height: 200vh;
     padding-top: 5vw;
   }
