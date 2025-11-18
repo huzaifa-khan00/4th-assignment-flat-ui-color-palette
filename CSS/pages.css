@@ -77,6 +77,7 @@ nav select:focus {
   color: white;
   position: relative;
   font-size: 1vw;
+  cursor: pointer;
 }
 
 .copy {
